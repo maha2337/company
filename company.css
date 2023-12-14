@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header .logo{
+    width: 30%;
+    height: 100px;
+    padding: 25px;
+}
+header{
+  width:100%;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+  background-color: white;
+}
+.logo img{
+    width: 250px;
+}
+header nav{
+    width: 70%;
+    height: 100px;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;
+    background-color: white;
+    color:black;
+    padding: 5px 5px;
+    text-align: end;
+    font-weight: 900;
+}
+.float{
+    float: left;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.p-5{
+    padding: 40px;
+}
+.main h1,.main h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 56px;
+    margin: auto;
+}
+.main h1{
+    font-weight: 900;
+    color: #f44336;
+}
+p{
+    color: #818385;
+}
+.about .about-img{
+    width: 30%;
+}
+.about .about-content{
+    width: 70%;
+}
+.w-100{
+    width: 100%;
+}
+.about{
+    border-top: 1px solid #818385;
+    border-bottom:1px solid #818385 ;
+}
+.services .service{
+    width: 33.33%;
+    padding: 30px;
+    float: left;
+}  
+.services {
+    text-align: left;
+}
+.projects .project{
+    width: 33.33%;
+    padding: 10px;
+    float: left;
+}
+.project img{
+    width: 100%;
+    padding: 5px;
+}
+ .blocks .block .content{
+   width: 33.33%;
+   padding: 40px;
+   float: left;
+}
+.content{
+    border: 1px solid #f44336;
+    padding: 10px;
+}
+ .blocks .content h1{
+   color: #818385;
+}
+ .logo{
+    width: 25%;
+    color: #818385;
+}
+.blocks .block1{
+    padding: 10px;
+}
+ .footer .logo img{
+    width: 150px;
+    text-align: start;
+ }
+ .feature {
+    width: 25%;
+    color: #818385;
+    text-align: center;
+    
+}
+.feature1 {
+    width: 25%;
+    color: #818385;
+    text-align: center;
+}
+.feature2 {
+    width: 25%;
+    color: #818385;
+    text-align: center;
+}
+ul li{
+    color: #818385;
+    text-align: center
+}
+.footer{;
+    text-align: justify;
+    margin: auto;
+}
